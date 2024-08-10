@@ -95,12 +95,3 @@ Explore these resources to enhance your understanding of Retrieval Augmented Gen
 
 The content in this repository is licensed under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute the code, provided you include the original copyright notice and license.
 
-## Acknowledgments
-
-We would like to express our gratitude to the following communities and organizations:
-
-- [Hugging Face](https://huggingface.co/) - For providing the all-MiniLM-L6-v2 Embeddings model.
-- [OpenAI](https://openai.com/) - For providing the GPT-3.5 Turbo model through their API.
-- [LangChain](https://python.langchain.com/) - For their tools and libraries used in document loading and processing.
-- [Streamlit](https://streamlit.io/) - For the powerful framework used to build the interactive user interface.
-
