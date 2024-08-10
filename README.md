@@ -8,9 +8,7 @@ Welcome to the Document Chatbot with Retrieval Augmented Generation (RAG) reposi
 
 The goal of this project is to create a user-centric and intelligent system that enhances information retrieval from PDF documents through natural language queries. The project focuses on streamlining the user experience by developing an intuitive interface, allowing users to interact with PDF content using language they are comfortable with. To achieve this, we leverage the Retrieval Augmented Generation (RAG) methodology introduced by Meta AI researchers.
 
-
-https://github.com/ArmaanSeth/ChatPDF/assets/99117431/2500f636-c66d-46ad-bb68-1d55f04ce753
-
+https://github.com/user-attachments/assets/42900b16-8bb4-4300-852e-c56d55116ea5
 
 ## Retrieval Augmented Generation (RAG)
 
@@ -94,13 +92,4 @@ Explore these resources to enhance your understanding of Retrieval Augmented Gen
 ## License
 
 The content in this repository is licensed under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute the code, provided you include the original copyright notice and license.
-
-## Acknowledgments
-
-We would like to express our gratitude to the following communities and organizations:
-
-- [Hugging Face](https://huggingface.co/) - For providing the all-MiniLM-L6-v2 Embeddings model.
-- [OpenAI](https://openai.com/) - For providing the GPT-3.5 Turbo model through their API.
-- [LangChain](https://python.langchain.com/) - For their tools and libraries used in document loading and processing.
-- [Streamlit](https://streamlit.io/) - For the powerful framework used to build the interactive user interface.
 
