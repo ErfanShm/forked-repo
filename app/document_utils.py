@@ -2,7 +2,7 @@ from PyPDF2 import PdfReader
 import csv
 from unstructured.partition.auto import partition
 import streamlit as st
-from app.text_processing import get_chunks, get_vectorstore
+from text_processing import get_chunks, get_vectorstore
 from conversation import get_conversationchain
 
 def get_text_from_file(uploaded_file):

@@ -1,7 +1,7 @@
 import streamlit as st
-from app.document_utils import process_documents
+from document_utils import process_documents
 from conversation import handle_question
-from app.htmlTemplates import css
+from htmlTemplates import css
 
 def main():
     st.set_page_config(page_title="Chat with multiple Documents", page_icon=":books:")

@@ -3,7 +3,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from langchain_openai import ChatOpenAI
 import streamlit as st
-from app.htmlTemplates import user_template, bot_template
+from htmlTemplates import user_template, bot_template
 
 custom_template = """Given the following conversation and a follow-up question, rephrase the follow-up question to be a standalone question, in its original language.
 Chat History:
