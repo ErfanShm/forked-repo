@@ -16,6 +16,8 @@ Welcome to the Document Chatbot with Retrieval Augmented Generation (RAG) reposi
 
 This project aims to create a user-centric and intelligent system that enhances information retrieval from documents through natural language queries. The focus is on streamlining the user experience by developing an intuitive interface that allows users to interact with document content effortlessly. The Retrieval Augmented Generation (RAG) methodology introduced by Meta AI researchers is employed to achieve this, combining the strengths of retrieval-based and generative AI models.
 
+https://github.com/user-attachments/assets/b6066983-d1d1-45b4-b652-ca7e745e72c9
+
 ## Retrieval Augmented Generation (RAG)
 
 ### Introduction
