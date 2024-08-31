@@ -55,6 +55,22 @@ Before getting started, ensure you have the following tools installed:
 
    For more details, visit the [uv documentation page](https://pypi.org/project/uv/).
 
+- **Python-dotenv**: Manage environment variables easily. Install it via pip with:
+
+    ```bash
+    pip install python-dotenv
+    ```
+
+    You will need to create a `.env` file in the root directory of the project and add your OpenAI API key in the following format:
+
+    ```plaintext
+    OPENAI_API_KEY=your_openai_api_key_here
+    ```
+
+    Without this key, the application will not be able to access the OpenAI API for GPT-3.5 Turbo and embedding models.
+
+- **OpenAI API Key**: Ensure you have an API key from OpenAI. This key is essential for interacting with GPT-3.5 Turbo and embedding models. Add it to your `.env` file as described above.
+
 - **Bash**: Included with Unix-based systems (Linux, macOS). Windows users can use Git Bash or Windows Subsystem for Linux (WSL).
 
 ## Installation Instructions
