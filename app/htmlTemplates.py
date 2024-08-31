@@ -12,19 +12,25 @@ css = '''
         --shadow-color: rgba(0, 0, 0, 0.5);
         --highlight-color: rgba(255, 255, 255, 0.1);
         --neon-glow: #a8ff78;
+        --avatar-size: 60px;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: var(--base-bg);
+        color: var(--text-color);
     }
 
     .chat-message {
-        padding: 1.2rem;
-        border-radius: 1.2rem;
-        margin-bottom: 2rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-bottom: 1.5rem;
         display: flex;
         align-items: center;
-        font-family: 'Roboto', sans-serif;
         position: relative;
-        overflow: hidden;
         background: var(--base-bg);
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
     }
 
     .chat-message::before {
@@ -36,7 +42,7 @@ css = '''
         height: 200%;
         background: radial-gradient(circle, var(--neon-glow) 0%, transparent 70%);
         opacity: 0;
-        transition: opacity 0.3s ease-in-out;
+        transition: opacity 0.3s ease;
     }
 
     .chat-message:hover::before {
@@ -51,18 +57,16 @@ css = '''
     .chat-message.user {
         justify-content: flex-end;
         background: linear-gradient(135deg, var(--user-gradient-start), var(--user-gradient-end));
-        box-shadow: inset 4px 4px 10px var(--shadow-color), inset -4px -4px 10px var(--highlight-color), 0 5px 15px var(--shadow-color);
     }
 
     .chat-message.bot {
         justify-content: flex-start;
         background: linear-gradient(135deg, var(--bot-gradient-start), var(--bot-gradient-end));
-        box-shadow: inset 4px 4px 10px var(--shadow-color), inset -4px -4px 10px var(--highlight-color), 0 5px 15px var(--shadow-color);
     }
 
     .chat-message .avatar {
-        width: 70px;
-        height: 70px;
+        width: var(--avatar-size);
+        height: var(--avatar-size);
         margin: 0 1rem;
         position: relative;
         z-index: 1;
@@ -75,7 +79,7 @@ css = '''
         object-fit: cover;
         box-shadow: 0 4px 8px var(--shadow-color);
         border: 3px solid var(--accent-color);
-        transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+        transition: transform 0.3s ease, border-color 0.3s ease;
     }
 
     .chat-message .avatar img:hover {
@@ -85,7 +89,7 @@ css = '''
 
     .chat-message .message {
         max-width: 70%;
-        padding: 1.2rem;
+        padding: 1rem;
         color: var(--text-color);
         border-radius: 0.8rem;
         background: var(--message-bg);
