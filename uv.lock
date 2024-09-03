@@ -346,7 +346,7 @@ requires-dist = [
     { name = "pypdf2", specifier = ">=3.0.1" },
     { name = "python-dotenv", specifier = ">=1.0.1" },
     { name = "streamlit", specifier = ">=1.38.0" },
-    { name = "unstructured" },
+    { name = "unstructured", specifier = ">=0.15.9" },
 ]
 
 [[package]]
