@@ -45,7 +45,7 @@ try:
 except Exception as e:
     summarizer = None
 
-def summarize(text, min_length=25, max_length=50):
+def summarize(text, min_length=10, max_length=564):
     max_input_length = 1024  # Maximum input length for BART model
 
     # Truncate input text if necessary
@@ -114,12 +114,11 @@ def process_documents(docs):
     try:
         raw_text = get_text_from_docs(docs)
         text_chunks = get_chunks(raw_text)
-
         # Summarize each chunk
         summarized_chunks = [summarize(chunk) for chunk in text_chunks if chunk.strip()]
-
         # Use summarized chunks to create the vectorstore
         vectorstore = get_vectorstore(summarized_chunks)
+        
         st.session_state.conversation = get_conversationchain(vectorstore)
         
         st.success("Documents have been processed successfully! You can now ask questions.")
