@@ -333,6 +333,7 @@ dependencies = [
     { name = "pypdf2" },
     { name = "python-dotenv" },
     { name = "streamlit" },
+    { name = "text-processing" },
     { name = "unstructured" },
 ]
 
@@ -346,6 +347,7 @@ requires-dist = [
     { name = "pypdf2", specifier = ">=3.0.1" },
     { name = "python-dotenv", specifier = ">=1.0.1" },
     { name = "streamlit", specifier = ">=1.38.0" },
+    { name = "text-processing" },
     { name = "unstructured", specifier = ">=0.15.9" },
 ]
 
@@ -2279,6 +2281,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/a3/4d/6a19536c50b849338
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d2/3f/8ba87d9e287b9d385a02a7114ddcef61b26f86411e121c9003eb509a1773/tenacity-8.5.0-py3-none-any.whl", hash = "sha256:b594c2a5945830c267ce6b79a166228323ed52718f30302c1359836112346687", size = 28165 },
 ]
+
+[[package]]
+name = "text-processing"
+version = "0.0.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/a8/8f/1c345702bec53387cb5a7276d8c4ffb65ed6eaeb9913d90b6912421658d9/text_processing-0.0.2.tar.gz", hash = "sha256:3b5c7a9573f8298af705c548db4c15db49a0bb4c80722c468086addebbf99a6e", size = 2924 }
 
 [[package]]
 name = "tiktoken"
