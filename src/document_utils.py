@@ -12,12 +12,16 @@ import os
 from dotenv import load_dotenv
 import warnings
 from langchain_core.documents import Document
+import warnings
+
+warnings.filterwarnings(
+    "ignore",
+    category=FutureWarning,
+    message=r".*clean_up_tokenization_spaces.*"
+)
 
 # Set environment variables for OpenMP and NLTK data path
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
-
-# Download the punkt tokenizer from nltk
-nltk.download('punkt')
 
 load_dotenv()
 
