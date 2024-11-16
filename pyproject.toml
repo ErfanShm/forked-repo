@@ -15,6 +15,9 @@ dependencies = [
     "python-dotenv>=1.0.1",
     "unstructured>=0.15.9",
     "text-processing",
+    "spacy>=3.7.5",
+    "transformers",
+    "torch>=2.4.1",
 ]
 
 [build-system]
