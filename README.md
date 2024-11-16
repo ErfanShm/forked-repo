@@ -3,7 +3,6 @@
 Welcome to the **Document Chatbot with Retrieval Augmented Generation (RAG)** repository! This project enables interactive document retrieval using cutting-edge AI techniques. By integrating the RAG methodology with a Streamlit-powered interface, it allows seamless querying across multiple document formats.
 
 ---
-
 ## 📚 Table of Contents
 
 - [✨ Overview](#-overview)
